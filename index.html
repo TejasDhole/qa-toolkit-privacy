@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QA Toolkit: Privacy Policy</title>
+<style>
+  body { font: 16px/1.6 system-ui, sans-serif; max-width: 760px; margin: 40px auto; padding: 0 16px; color: #1b2330; background: #faf8f4; }
+  h1 { font-size: 28px; } h2 { font-size: 20px; margin-top: 28px; }
+</style>
+</head>
+<body>
+<h1>QA Toolkit: Privacy Policy</h1>
+<p>Last updated: 26 October 2026</p>
+
+<p>QA Toolkit is an internal quality-assurance tool for RentCafe APv3 (Online Leasing) and RPv3 (Resident Portal) pages. This policy explains what the extension handles and where it goes.</p>
+
+<h2>Where it runs</h2>
+<p>Only on RentCafe portal pages (rentcafe.com, securecafe.com and RentCafe QA domains) and on localhost for development. On any other website it does nothing.</p>
+
+<h2>What it handles</h2>
+<ul>
+  <li><b>Test data it generates</b>: fictional test people (names, test emails, test phone numbers, test SSNs on QA only) used to fill forms, and their application progress (prospect id, property, status) read from the portal page.</li>
+  <li><b>Page diagnostics</b>: failed or error API calls, console errors and on-screen error messages, analytics and cookie-consent status of the portal page, used to help testers report problems. Sensitive values (card numbers, SSNs, phone numbers, emails, tokens) are masked.</li>
+  <li><b>Screenshots</b>: only when the tester creates a problem report or a payment failure is detected, and only if the tester allowed screenshots.</li>
+</ul>
+
+<h2>Where it is stored</h2>
+<p>Only in the tester's own browser: test people and preferences in the extension's local storage, diagnostics and screenshots in session storage that is cleared when the browser closes. The tester can delete the test-people history at any time from the history page.</p>
+
+<h2>What is shared</h2>
+<p>Nothing. The extension makes no network requests of its own, contains no analytics or tracking, loads no remote code, and does not sell or transfer any data. A problem report leaves the browser only when the tester chooses to copy, download or paste it.</p>
+
+<h2>Contact</h2>
+<p>Questions: <a href="mailto:dholetejas039@gmail.com">dholetejas039@gmail.com</a></p>
+</body>
+</html>
